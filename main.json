@@ -1,9 +1,9 @@
 [
   {
-    "id":"second-live",
+    "id":"test-demo",
     "pool_type":"public",
     "contract_address":"0xf02e318ec548d4611ca75221fbd0594a962a59f8",
-    "title":"Second Live",
+    "title":"Test Demo",
     "summary":"The project utilizes the WEB3 platform to complete the following tasks, such as finance, lending, The project utilizes the WEB3 platform to",
     "social_accounts":[
       {
@@ -35,6 +35,7 @@
       "method":"linear unlock",
       "desc":"some ...."
     },
-    "start_time":"2023-07-01T00:00:00+08:00"
+    "start_time":"2023-07-01T00:00:00+08:00",
+    "end_time":"2023-08-01T00:00:00+08:00"
   }
 ]

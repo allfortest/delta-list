@@ -76,6 +76,12 @@ interface Project {
    * Notice: please use the UTC time format YYYY-MM-DDThh:mm:ssTZD
    */
   start_time: string
+
+  /**
+   * project end time (when the project was fully completed)
+   * Notice: please use the UTC time format YYYY-MM-DDThh:mm:ssTZD
+   */
+  end_time:string
 }
 
 ```
