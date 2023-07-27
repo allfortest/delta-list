@@ -1,0 +1,40 @@
+[
+  {
+    "id":"second-live",
+    "pool_type":"public",
+    "contract_address":"0xf02e318ec548d4611ca75221fbd0594a962a59f8",
+    "title":"Second Live",
+    "summary":"The project utilizes the WEB3 platform to complete the following tasks, such as finance, lending, The project utilizes the WEB3 platform to",
+    "social_accounts":[
+      {
+        "type":"twitter",
+        "address":"https://twitter.com/secondlive"
+      },
+      {
+        "type":"discord",
+        "address":"https://discord.com/secondlive"
+      },
+      {
+        "type":"website",
+        "address":"https://secondlive.world/"
+      }
+    ],
+    "chain_info":{
+      "id":97,
+      "name":"BSC"
+    },
+    "const_token":{
+      "name":"USTD",
+      "symbol":"$"
+    },
+    "target_token":{
+      "name":"USTD",
+      "symbol":"$"
+    },
+    "unlock_method":{
+      "method":"linear unlock",
+      "desc":"some ...."
+    },
+    "start_time":"2023-07-01T00:00:00+08:00"
+  }
+]
