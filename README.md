@@ -1,4 +1,4 @@
-## Steps to add a new item
+## Steps to add a new project
 1. Add project information to /main.json
 2. Add a new folder in /projects,the folder name must be project_id which you set in /main.json
 3. Add the following files under the project folder
