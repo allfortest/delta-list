@@ -39,11 +39,14 @@ interface Project {
    */
   title: string
 
+
   /**
    * project description
    */
   summary: string
 
+  nft_name: string
+  
   chain_info: {
     id: number
     name: string
