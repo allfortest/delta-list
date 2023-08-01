@@ -5,6 +5,7 @@
 > - ***logo.png*** (project logo, aspect ratio 1:1)
 > - ***list-cover.png*** (project list page cover image, aspect ratio 5:2)
 > - ***detail-cover.png*** (project details page cover image, aspect ratio 5:1)
+> - ***nft.png***
 > - ***description.md***
 > - ***roadmap.md***
 > - ***outstanding.md***
