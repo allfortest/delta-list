@@ -1,5 +1,5 @@
 ## Steps to add a new project
-1. Add project information to /main.json
+1. Add project information in /main.json
 2. Add a new folder in /projects,the folder name must be project_id which you set in /main.json
 3. Add the following files under the project folder
 > - ***logo.png*** (project logo, aspect ratio 1:1)
@@ -78,13 +78,13 @@ interface Project {
 
   /**
    * project start time (time to enter project preparation phase)
-   * Notice: please use the UTC time format YYYY-MM-DDThh:mm:ssTZD
+   * Notice: please use the UTC time format YYYY-MM-DDThh:mm:ssZ
    */
   start_time: string
 
   /**
    * project end time (when the project was fully completed)
-   * Notice: please use the UTC time format YYYY-MM-DDThh:mm:ssTZD
+   * Notice: please use the UTC time format YYYY-MM-DDThh:mm:ssZ
    */
   end_time:string
 }
