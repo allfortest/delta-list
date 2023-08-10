@@ -53,6 +53,7 @@ interface Project {
   }
 
   unlock_method: {
+    //Linear Unlock | OneTime Unlock | Phased Unlock
     method: string
     desc: string
   }
