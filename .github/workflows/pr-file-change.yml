@@ -1,0 +1,33 @@
+name: PR File Change
+
+on:
+  push:
+    branches: [master,test]
+  pull_request:
+    branches: [master,test]
+
+jobs:
+  pr-file-change:
+    name: pr-file-change
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: yarn install
+
+      - id: files
+        uses: jitterbit/get-changed-files@v1
+        
+      - run: |
+          for changed_file in ${{ steps.files.outputs.all }}; do
+            echo "Do something with this ${changed_file}."
+          done
