@@ -3,9 +3,9 @@ import fs from 'fs';
 import projects from './main.json';
 import { Project } from './validate';
 
-childProcess.execSync('git clone https://github.com/dego-launchpad/delta-list.git --depth=1 ~/delta-list-main')
+childProcess.execSync('git clone https://github.com/dego-launchpad/delta-list.git --depth=1 ./delta-list-main')
 
-const mainFile =  fs.readFileSync('~/delta-list-main/main.json','utf-8')
+const mainFile =  fs.readFileSync('./delta-list-main/main.json','utf-8')
 
 const mainProjects =  JSON.parse(mainFile) as Project[]
 
