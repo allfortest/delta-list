@@ -10,7 +10,7 @@ const mainFile =  fs.readFileSync('delta-list-main/main.json','utf-8')
 const mainProjects =  JSON.parse(mainFile) as Project[]
 
 mainProjects.forEach((p,index)=>{
-  const currentProject = projects.find(project=>project.id===p.id)
+  const currentProject = (projects as Project[]).find(project=>project.id===p.id)
   Object.entries(p).forEach(([key,value])=>{
     const _value = currentProject?.[key as keyof Project]
     if((typeof value === 'object' && JSON.stringify(_value)!==JSON.stringify(value)) || _value!==value){
