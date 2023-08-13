@@ -33,5 +33,4 @@ jobs:
           readarray -t removed_files <<<"$(jq -r '.[]' <<<'${{ steps.files.outputs.removed }}')"
           for removed_file in ${removed_files[@]}; do
             yarn run throw-error
-            echo "Do something with this ${removed_file}."
           done
