@@ -1,8 +1,6 @@
 name: PR File Change
 
 on:
-  push:
-    branches: [master,test]
   pull_request:
     branches: [master,test]
 
@@ -24,10 +22,12 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: PR Diff
+        run: yarn run pr-diff
+
       - id: files
         uses: jitterbit/get-changed-files@v1
-        
-      - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            echo "Do something with this ${changed_file}."
-          done
+        with:
+          format: 'json'
+      - if: ${{ steps.files.outputs.removed.length > 0 }}
+        run: yarn run throw-error
