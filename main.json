@@ -1,5 +1,5 @@
 {
-  "project_type":"brc-20",//'erc-20' | 'brc-20' | 'brc-20-lucky'
+  "project_type":"brc-20",
   "id":"banana",
   "pool_type":"public",
   "contract_address":"",
@@ -28,10 +28,10 @@
     "name":"BSCTest"
   },
   "nft_name":"Banana Voucher",
-  "expiration_time":"2024-01-05T08:00:00+00:00",//NFT过期时间
+  "expiration_time":"2024-01-05T08:00:00+00:00",
   "cost_token":{
     "name":"ETH",
-    "symbol":"ETH"//ETH symbol怎么填写？
+    "symbol":"ETH"
   },
   "target_token":{
     "name":"BNAN",
@@ -41,7 +41,7 @@
     "method":"OneTime Unlock",
     "desc":"OneTime Unlock"
   },
-  "start_time":"2023-12-30T08:00:00+00:00",//几点开始质押
-  "start_pay":"2024-01-18T08:00:00+00:00",//开始购买
-  "end_time":"2024-01-18T08:00:00+00:00"//项目完全时间
+  "start_time":"2023-12-30T08:00:00+00:00",
+  "start_pay":"2024-01-18T08:00:00+00:00",
+  "end_time":"2024-01-18T08:00:00+00:00"
 }
