@@ -1,1 +1,47 @@
-[]
+{
+  "project_type":"brc-20",//'erc-20' | 'brc-20' | 'brc-20-lucky'
+  "id":"banana",
+  "pool_type":"public",
+  "contract_address":"",
+  "title":"BANANA",
+  "summary":"BANANA is the First Community-driven Asset Launchpad on Bitcoin，providing full-process asset management tools and services based on the BTC ecosystem.",
+  "social_accounts":[
+  	{
+      "type":"website",
+      "address":"https://banana.market/"
+    },
+    {
+      "type":"twitter",
+      "address":"https://twitter.com/bnansat"
+    },
+    {
+      "type":"medium",
+      "address":"https://medium.com/@bnansat"
+    },
+    {
+      "type":"telegram",
+      "address":"https://t.me/bnan_market"
+    }
+  ],
+  "chain_info":{
+    "id":97,
+    "name":"BSCTest"
+  },
+  "nft_name":"Banana Voucher",
+  "expiration_time":"2024-01-05T08:00:00+00:00",//NFT过期时间
+  "cost_token":{
+    "name":"ETH",
+    "symbol":"ETH"//ETH symbol怎么填写？
+  },
+  "target_token":{
+    "name":"BNAN",
+    "symbol":"BNAN"
+  },
+  "unlock_method":{
+    "method":"OneTime Unlock",
+    "desc":"OneTime Unlock"
+  },
+  "start_time":"2023-12-30T08:00:00+00:00",//几点开始质押
+  "start_pay":"2024-01-18T08:00:00+00:00",//开始购买
+  "end_time":"2024-01-18T08:00:00+00:00"//项目完全时间
+}
